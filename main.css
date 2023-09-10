@@ -62,6 +62,20 @@ header.hero h1 {
 header.hero h2 {
     color: #4d5791;
 }
+main {
+    padding: 40px;
+    width: 100%;
+}
+.skip {
+    display: block;
+    line-height: 44px;
+    padding: 0 20px;
+    margin-top: -44px;
+}
+
+.skip:focus {
+    margin-top: 0;
+}
 
 .container {
     padding: 40px;
